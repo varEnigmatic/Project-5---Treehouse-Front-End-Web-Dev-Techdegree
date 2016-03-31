@@ -1,0 +1,74 @@
+/*
+ =========================
+ Typography
+ =========================
+ */
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400);
+$heading-font: 'Open Sans', sans-serif;
+$paragraph-font: 'Merriweather', serif;
+
+/* Weights */
+.light {
+  font-weight: $light-weight;
+}
+.normal {
+  font-weight: $normal-weight;
+}
+.semi-bold {
+  font-weight: $semi-bold-weight;
+}
+.bold {
+  font-weight: $bold-weight;
+}
+.extra-bold {
+  font-weight: $extra-bold-weight;
+}
+
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+  font-weight: $bold-weight;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  font-family: $paragraph-font;
+  font-weight: $light-weight;
+}
+a {
+  font-family: $heading-font;
+}

@@ -1,0 +1,65 @@
+#portfolio {
+  padding: 20px 0px;
+  .container {
+    background-color: $white;
+    padding: 20px;
+  }
+  .section-name {
+    text-align: center;
+    color: $charcoal1;
+  }
+
+  hr {
+    padding: 0px;
+    margin-top: 0px;
+    border: 0;
+    height: 2px;
+    background: $teal;
+    width: 40%;
+  }
+}
+
+.portfolio-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item {
+  float: left;
+  width: 95%;
+  margin: 2.5%;
+
+  @include tablet {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+  }
+
+  @include desktop {
+    float: left;
+    width: 28.33%;
+    margin: 2.5%;
+  }
+
+  .portfolio-img {
+    max-width: 100%;
+  }
+
+  .portfolio-title {
+    color: $teal;
+    text-align: center;
+  }
+
+  .portfolio-info {
+    color: $charcoal1;
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
+.portfolio-item:nth-child(3n+1) {
+  @include desktop {
+    clear: left;
+  }
+}

@@ -1,0 +1,37 @@
+#header {
+  padding: 20px 0px;
+
+  .profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
+
+    @include tablet {
+      display: block;
+      width: 40%;
+      float: right;
+      margin: 2.5px;
+    }
+  }
+
+  .profile-info {
+    @include tablet {
+      width: 45%;
+      text-align: left;
+      float: left;
+      margin-top: 2.5px;
+      margin-bottom: 2.5px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding-top: 25px;
+      padding-left: 40px;
+      font-size: 18px;
+      font-weight: 300;
+    }
+
+    @include desktop {
+      padding-top: 60px;
+    }
+  }
+}
